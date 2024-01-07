@@ -5,7 +5,7 @@ import pickle
 
 
 
-file1 = open('bodyfatmodel.pkl', 'rb')
+file1 = open('bodyfat.pkl', 'rb')
 rf = pickle.load(file1)
 file1.close()
 
